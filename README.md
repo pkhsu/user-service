@@ -1,39 +1,39 @@
-# User Service 用户管理系统
+# User Service Management System
 
-这是一个基于 Spring Boot 和 Streamlit 的用户管理系统。
+A user management system built with Spring Boot and Streamlit.
 
-## 功能特性
-- 用户信息管理 (CRUD)
-- 用户状态切换
-- 前后端分离架构
+## Features
+- User CRUD operations
+- User status toggle
+- Frontend-backend separation architecture
 
-## 技术栈
-- 后端: Java Spring Boot
-- 前端: Python Streamlit
-- 数据库: MongoDB
+## Tech Stack
+- Backend: Java Spring Boot
+- Frontend: Python Streamlit
+- Database: MongoDB
 
-## 快速开始
-1. 安装依赖:
+## Quick Start
+1. Install dependencies:
 ```bash
-# 后端
+# Backend
 mvn install
 
-# 前端
+# Frontend
 pip install -r frontend/requirements.txt
 ```
 
-2. 启动服务:
+2. Start services:
 ```bash
 docker-compose up
 ```
 
-3. 访问应用:
-- 后端 API: http://localhost:8080
-- 前端界面: http://localhost:8501
+3. Access applications:
+- Backend API: http://localhost:8080
+- Frontend UI: http://localhost:8501
 
-## 项目结构
+## Project Structure
 ```
 user-service/
-├── frontend/    # Streamlit 前端
-├── src/         # Spring Boot 后端
-└── memory-bank/ # 项目文档
+├── frontend/    # Streamlit frontend
+├── src/         # Spring Boot backend
+└── memory-bank/ # Project documentation
