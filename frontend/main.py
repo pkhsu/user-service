@@ -5,9 +5,10 @@ from pymongo import MongoClient
 from datetime import datetime
 import time
 
-# MongoDB 連接設定 (使用docker容器名稱)
-MONGO_URI = "mongodb://root:password@mongodb:27017/"
-DB_NAME = "user-service"
+# MongoDB 連接設定 (使用環境變數)
+import os
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://root:password@mongodb:27017/")
+DB_NAME = os.getenv("DB_NAME", "user-service")
 COLLECTION_NAME = "users"
 
 # 初始化 MongoDB 連接
