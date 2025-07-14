@@ -29,6 +29,7 @@ Once the services are running, you can access them at:
 ## Project Structure
 ```
 user-service/
+├── backend/     # Spring Boot backend
 ├── frontend/    # Streamlit frontend
-├── src/         # Spring Boot backend
 └── memory-bank/ # Project documentation
+```

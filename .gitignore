@@ -1,5 +1,5 @@
 .DS_Store
-target/
+/backend/target/
 .mvn/
 *.iml
 .idea/

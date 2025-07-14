@@ -13,7 +13,7 @@ services:
       - user-service-network
 
   user-service:
-    build: .
+    build: ./backend
     container_name: user-service
     ports:
       - "8080:8080"
