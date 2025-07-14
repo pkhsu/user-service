@@ -5,21 +5,23 @@
 - [x] User entity class definition
 - [x] UserRepository interface creation
 - [x] UserService basic framework
+- [x] UserController implementation with RESTful endpoints
+- [x] Basic `user-admin` web interface for CRUD operations
+- [x] Docker-based environment for all services (backend, frontend, db)
+- [x] Fixed database authentication issue
 
 ## In Progress
-- [ ] UserController implementation
 - [ ] API documentation generation
-- [ ] Unit test writing
+- [ ] Unit test writing for `UserService` and `UserController`
 
 ## Pending Features
 1. User registration/login functionality
 2. Password encryption storage
 3. API authentication/authorization
-4. Error handling mechanism
-5. Admin interface endpoints
+4. Enhanced error handling mechanism
+5. Role-based access control in the admin interface
 
 ## Known Issues
-- Database connection configuration needs optimization
 - Missing global exception handling
 - Incomplete logging
 - Performance monitoring missing

@@ -13,23 +13,18 @@ A user management system built with Spring Boot and Streamlit.
 - Database: MongoDB
 
 ## Quick Start
-1. Install dependencies:
-```bash
-# Backend
-mvn install
 
-# Frontend
-pip install -r frontend/requirements.txt
+To start the application, run the following command:
+
+```bash
+docker compose up -d --build
 ```
 
-2. Start services:
-```bash
-docker-compose up
-```
+This command will build the Docker images for the backend and frontend services, and then start all the required containers in detached mode.
 
-3. Access applications:
-- Backend API: http://localhost:8080
-- Frontend UI: http://localhost:8501
+Once the services are running, you can access them at:
+- Backend API: `http://localhost:8080/api/users`
+- Frontend UI: `http://localhost:8501`
 
 ## Project Structure
 ```

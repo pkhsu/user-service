@@ -1,10 +1,15 @@
 # System Architecture & Design Patterns
 
-## Overall Architecture
+## Backend Architecture
 Standard three-layer architecture:
 1. **Presentation Layer**: Spring MVC Controllers
 2. **Business Logic Layer**: Service components
 3. **Data Access Layer**: Spring Data MongoDB Repositories
+
+## Frontend Architecture
+- A simple, single-page application built with Streamlit.
+- Interacts directly with the MongoDB database.
+- Containerized and runs as a separate service.
 
 ## Core Design Patterns
 - **Dependency Injection**: Implemented via Spring's @Autowired
